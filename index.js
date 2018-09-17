@@ -4,5 +4,5 @@ function findMatching(array, sample) {
 }
 
 function fuzzyMatch(array, sample) {
-
+  return array.filter(name => name.substring(0,sample.length-1) === sample);
 }
