@@ -6,3 +6,7 @@ function findMatching(array, sample) {
 function fuzzyMatch(array, sample) {
   return array.filter(name => name.substring(0,sample.length) === sample);
 }
+
+function matchName(array, sample) {
+  
+}
