@@ -15,5 +15,6 @@ function matchName(array, sample) {
       newCollection.push(user);
     }
   }
-    return NewCollection;
+
+  return NewCollection;
 }
