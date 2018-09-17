@@ -3,6 +3,6 @@ function findMatching(array, sample) {
   return array.filter(name => name.toLowerCase() === sample.toLowerCase());
 }
 
-function fuzzyMatch()(array, sample) {
-  
+function fuzzyMatch(array, sample) {
+
 }
