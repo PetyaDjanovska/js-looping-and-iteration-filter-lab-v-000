@@ -14,5 +14,6 @@ function matchName(array, sample) {
     if (user.name === sample) {
       newCollection.push(user);
     }
-    freturn NewCollection;
+  }
+    return NewCollection;
 }
