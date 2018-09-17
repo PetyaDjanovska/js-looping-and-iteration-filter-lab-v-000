@@ -11,7 +11,7 @@ function matchName(array, sample) {
   const newCollection = [];
 
   for (const user of array) {
-    if (user[name] === sample) {
+    if (user.name === sample) {
       newCollection.push(user);
     }
   }
