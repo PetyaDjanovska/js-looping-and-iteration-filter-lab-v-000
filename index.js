@@ -15,4 +15,5 @@ function matchName(array, sample) {
       newCollection.push(user);
     }
   }
+  return newCollection;
 }
